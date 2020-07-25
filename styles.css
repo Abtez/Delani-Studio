@@ -46,7 +46,7 @@
 
 #serve{
     background-image: url("/image/keyboardbg.jpg");
-    background-size: 120%;
+    background-size: 115%;
     background-repeat: no-repeat;
     height: 60vh;
     color: white;
@@ -69,3 +69,8 @@
     font-weight: bold;
 }
 
+.colum{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
