@@ -43,3 +43,29 @@
 #about-us{
     font-size: 2.1vw;
 }
+
+#serve{
+    background-image: url("/image/keyboardbg.jpg");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    height: 60vh;
+    color: white;
+    line-height: 150%;
+}
+
+.my-services{
+    transform: translate(-90% -90%);
+    text-align: center;
+    margin-top: 9.5%;
+}
+
+#serv-is{
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+#services{
+    font-size: 1.25vw;
+    font-weight: bold;
+}
+
