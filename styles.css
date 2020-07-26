@@ -114,6 +114,49 @@ body{
     
 }
 
+#fourth-container{
+    color: white;
+    background-image: url("/image/mechanicbg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 50vw;
+}
+
+#contact{
+    font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 2.5%;
+}
+
+#name{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 1px solid white;
+    margin-left: 5%;
+}
+
+#email{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 1px solid white;
+    margin-left: -20%;
+}
+
+.column3{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+#textarea{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 1%;
+    border: 1px solid white;
+}
+
+button{
+    margin-left: 15%;
+}
 
 
 
