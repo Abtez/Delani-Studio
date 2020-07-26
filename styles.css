@@ -144,6 +144,8 @@ body{
 }
 
 #textarea{
+    width: 76%;
+    height: 17vw;
     background-color: rgba(255, 255, 255, 0);
     color: white;
     padding: 1%;
