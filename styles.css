@@ -78,6 +78,11 @@ body{
     justify-content: space-around;
 }
 
+#what-we-do{
+    font-size: 2vw;
+    padding-bottom: 2%;
+}
+
 .logoPro {
    float: right;
    margin-right: -10%;
@@ -85,15 +90,22 @@ body{
 
 #design{
     margin-left: 7%;
+    font-size: 1.3vw;
 }
 
 #develop{
     margin-left: -10%;
+    font-size: 1.3vw;
 }
 
 #product{
     display: flex;
     margin-left: -25%;
+    font-size: 1.3vw;
+}
+
+#portfolio{
+    font-size: 2vw;
 }
 
 .column1 img{
@@ -117,12 +129,15 @@ body{
 }
 
 #contact{
+    font-size: 2vw;
     font-weight: bold;
     padding-top: 5%;
     padding-bottom: 2.5%;
 }
 
 #name{
+    font-size: 1.3vw;
+    font-weight: bold;
     width: 36vw;
     background-color: rgba(255, 255, 255, 0);
     color: white;
@@ -131,6 +146,8 @@ body{
 }
 
 #email{
+    font-size: 1.3vw;
+    font-weight: bold;
     width: 36vw;
     background-color: rgba(255, 255, 255, 0);
     color: white;
@@ -144,6 +161,7 @@ body{
 }
 
 #textarea{
+    font-size: 1.3vw;
     width: 76%;
     height: 17vw;
     background-color: rgba(255, 255, 255, 0);
@@ -158,6 +176,11 @@ button{
 
 .column5 img{
     padding: 0.7%;
+    width: 6%;
+}
+
+.column5 p{
+    font-size: 1.3vw;
 }
 
 
