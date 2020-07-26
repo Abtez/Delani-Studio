@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("img").click(function(){
-        $("img").append("WE ARE");
-    })
+    $(".logoDez").click(function(){
+    alert("You ARe AY");
+    });
 });
