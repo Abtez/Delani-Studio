@@ -51,7 +51,7 @@ body{
     background-image: url("/image/keyboardbg.jpg");
     background-size: 115%;
     background-repeat: no-repeat;
-    height: 60vh;
+    height: 30vw;
     color: white;
     line-height: 150%;
 }
