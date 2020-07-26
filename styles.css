@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 
 #first-container{
     background-image: url("/image/stepbg.jpg");
@@ -72,5 +75,50 @@
 .colum{
     display: flex;
     flex-direction:row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
+
+.logoDez{
+    margin-left: ;
+}
+
+.logoPro{
+    margin-right: -3%;
+}
+
+#design{
+    margin-left: %;
+}
+
+#develop{
+    margin-left: ;
+}
+
+#product{
+    margin-left: -10%;
+}
+
+.column1 img{
+    width: 21%;
+    padding: 1%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
