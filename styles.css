@@ -79,23 +79,27 @@ body{
 }
 
 .logoDez{
-    margin-left: ;
+    margin-left: 5%;
 }
 
-.logoPro{
-    margin-right: -3%;
+.logoDev{
+    margin-left: 5%;
+}
+
+.logoPro {
+
 }
 
 #design{
-    margin-left: %;
+    margin-left: 7%;
 }
 
 #develop{
-    margin-left: ;
+    margin-left: -10%;
 }
 
 #product{
-    margin-left: -10%;
+    margin-right: ;
 }
 
 .column1 img{
@@ -104,6 +108,11 @@ body{
     
 }
 
+.column2 img{
+    width: 21%;
+    padding: 1%;
+    
+}
 
 
 
