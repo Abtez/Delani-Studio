@@ -78,11 +78,6 @@ body{
     justify-content: space-around;
 }
 
-.logoDez{
-    margin-left: %;
-}
-
-
 .logoPro {
    float: right;
    margin-right: -10%;
@@ -128,13 +123,15 @@ body{
 }
 
 #name{
+    width: 36vw;
     background-color: rgba(255, 255, 255, 0);
     color: white;
     border: 1px solid white;
-    margin-left: 5%;
+    margin-left: 5%;  
 }
 
 #email{
+    width: 36vw;
     background-color: rgba(255, 255, 255, 0);
     color: white;
     border: 1px solid white;
