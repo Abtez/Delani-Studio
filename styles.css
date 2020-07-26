@@ -75,19 +75,17 @@ body{
 .colum{
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .logoDez{
-    margin-left: 5%;
+    margin-left: %;
 }
 
-.logoDev{
-    margin-left: 5%;
-}
 
 .logoPro {
-
+   float: right;
+   margin-right: -10%;
 }
 
 #design{
@@ -99,7 +97,8 @@ body{
 }
 
 #product{
-    margin-right: ;
+    display: flex;
+    margin-left: -25%;
 }
 
 .column1 img{
