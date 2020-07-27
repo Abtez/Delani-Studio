@@ -26,3 +26,65 @@ $(document).ready(function(){
         $(".change3").slideDown("1500");
       });
 });
+
+$(document).ready(function(){
+    $("#grey").mouseover(function(){
+      $("#black").show();
+    }).mouseout(function(){
+      $("#black").hide();
+    });
+    $("#ontario").mouseover(function(){
+      $("#security").show();
+    }).mouseout(function(){
+      $("#security").hide();
+    });
+    $("#yellow").mouseover(function(){
+      $("#orange").show();
+    }).mouseout(function(){
+      $("#orange").hide();
+    });
+    $("#brave").mouseover(function(){
+      $("#movies").show();
+    }).mouseout(function(){
+      $("#movies").hide();
+    });
+    $("#gudday").mouseover(function(){
+      $("#gday").show();
+    }).mouseout(function(){
+      $("#gday").hide();
+    });
+    $("#buttons").mouseover(function(){
+      $("#inputs").show();
+    }).mouseout(function(){
+      $("#inputs").hide();
+    });
+    $("#burned").mouseover(function(){
+      $("#fire").show();
+    }).mouseout(function(){
+      $("#burned").hide();
+    });
+    $("#giraffe").mouseover(function(){
+      $("#restaurant").show();
+    }).mouseout(function(){
+      $("#restaurant").hide();
+    });
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

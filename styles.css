@@ -111,13 +111,11 @@ body{
 .column1 img{
     width: 21%;
     padding: 1%;
-    
 }
 
 .column2 img{
     width: 21%;
     padding: 1%;
-    
 }
 
 #fourth-container{
@@ -199,11 +197,52 @@ button{
     display: none;
     text-align: center;
     font-size: 1.1vw;
-
-
 }
 
+#black,#security,#orange,#movies,#gday,#inputs,#fire,#restaurant{
+    width: 19%;
+    height: 17vw;
+    padding: 2%;
+    display: none;
+    color: white;
+    margin-left: -20%;
+    margin-top: 1.2%;
+    background-color: #000000a6;
+    color: white;
+    font-size: 1.9vw;
+    text-align: left;
+    font-weight: bolder;
+    transition: .5sec ease;
+}
 
+.image {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .column1:hover .image {
+    opacity: 0.3;
+  }
+  
+  .column1:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
 
 
 
