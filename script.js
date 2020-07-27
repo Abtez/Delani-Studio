@@ -71,15 +71,18 @@ $(document).ready(function(){
   });
 
   $(document).ready(function(){
-    var nameInput=$("input#name").val();
+    var name=$("#name").val();
     document.getElementById("name").innerHTML;
     var emailInput=$("input#email").val();
-    document.getElementById("email").innerHTML
+    document.getElementById("email").innerHTML;
+
+    $("#name").append(name);
 
     $("#submit").click(function(){
-        alert("Thank you " + nameInput + " " + "Your email has been received")
+      
+        alert("Thank you. Your message has been received")
     })
-
+      event.preventDefault();
   })
 
 
