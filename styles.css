@@ -183,18 +183,23 @@ button{
     font-size: 1.3vw;
 }
 
-.hide1{
-    display: noe;
-
+#hide1{
+    display: none;
+    text-align: center;
+    font-size: 1.1vw;
 }
 
-.hide2{
-    display: noe;
-
+#hide2{
+    display: none;
+    text-align: center;
+    font-size: 1.1vw;
 }
 
-.hide3{
-    display: noe;
+#hide3{
+    display: none;
+    text-align: center;
+    font-size: 1.1vw;
+
 
 }
 
