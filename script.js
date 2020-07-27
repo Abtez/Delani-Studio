@@ -61,14 +61,26 @@ $(document).ready(function(){
     $("#burned").mouseover(function(){
       $("#fire").show();
     }).mouseout(function(){
-      $("#burned").hide();
+      $("#fire").hide();
     });
-    $("#giraffe").mouseover(function(){
+    $("#giraffe").hover(function(){
       $("#restaurant").show();
     }).mouseout(function(){
       $("#restaurant").hide();
     });
   });
+
+  $(document).ready(function(){
+    var nameInput=$("input#name").val();
+    document.getElementById("name").innerHTML;
+    var emailInput=$("input#email").val();
+    document.getElementById("email").innerHTML
+
+    $("#submit").click(function(){
+        alert("Thank you " + nameInput + " " + "Your email has been received")
+    })
+
+  })
 
 
 
