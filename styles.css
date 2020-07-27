@@ -212,17 +212,17 @@ button{
     font-weight: bolder;
     transform: translate(-50% -50%);
     transition: ease-in;
-    transition-delay: 1s;
+    
 }
 
 .image {
     opacity: 1;
-    transition: .5s ease;
+    transition: 0.5s ease;
     backface-visibility: hidden;
   }
   
   .middle {
-    transition: .5s ease;
+    transition: 0.5s ease;
     opacity: 0;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
