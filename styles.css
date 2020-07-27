@@ -84,7 +84,6 @@ body{
 }
 
 .logoPro {
-   float: right;
    margin-right: -10%;
 }
 
@@ -99,8 +98,7 @@ body{
 }
 
 #product{
-    display: flex;
-    margin-left: -25%;
+
     font-size: 1.3vw;
 }
 
@@ -212,7 +210,9 @@ button{
     font-size: 1.9vw;
     text-align: left;
     font-weight: bolder;
-    transition: all 0.5s ease;
+    transform: translate(-50% -50%);
+    transition: ease-in;
+    transition-delay: 1s;
 }
 
 .image {

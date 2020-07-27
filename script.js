@@ -75,11 +75,8 @@ $(document).ready(function(){
     document.getElementById("name").innerHTML;
     var emailInput=$("input#email").val();
     document.getElementById("email").innerHTML;
-
-    $("#name").append(name);
-
     $("#submit").click(function(){
-      
+    
         alert("Thank you. Your message has been received")
     })
       event.preventDefault();
