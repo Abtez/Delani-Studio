@@ -119,6 +119,11 @@ body{
     font-size: 1.3vw;
 }
 
+::placeholder{
+    color: white;
+    background-color: inherit;
+}
+
 #develop{
     margin-left: -10%;
     font-size: 1.3vw;
