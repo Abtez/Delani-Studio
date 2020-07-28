@@ -243,7 +243,7 @@ button{
 
 #black,#security,#orange,#movies,#gday,#inputs,#fire,#restaurant{
     width: 19%;
-    height: 17vw;
+    height: 14.7vw;
     padding: 2%;
     display: none;
     color: white;
@@ -254,8 +254,8 @@ button{
     font-size: 1.9vw;
     text-align: left;
     font-weight: bolder;
+    z-index: 1;
     transform: translate(-50% -50%);
-    transition: ease-in;
     
 }
 
