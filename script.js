@@ -33,7 +33,7 @@ $(document).ready(function(){
     }).mouseout(function(){
       $("#black").hide(800);
     });
-    $("#ontario").mouseover(function(){
+    $("#ontario").mouseenter(function(){
       $("#security").slideDown(1000).show();
     }).mouseout(function(){
       $("#security").hide(800);
