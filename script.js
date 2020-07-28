@@ -85,6 +85,14 @@ $(document).ready(function(){
   
     });
 
+    $(document).ready(function(){
+        $("img#mouseClick").click(function()
+       {
+         var elmnt = document.getElementById("what-we-do");
+         elmnt.scrollIntoView();
+       });
+      });
+    
 
 
 
