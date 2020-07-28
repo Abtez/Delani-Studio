@@ -79,7 +79,7 @@ $(document).ready(function(){
     
         alert("Thank you. Your message has been received")
     })
-      event.preventDefault();
+
   })
 
 
