@@ -28,45 +28,45 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("#grey").mouseenter(function(){
-      $("#black").slideDown(1200);
+    $("#grey").mouseover(function(){
+      $("#black").slideDown(1000).show();
     }).mouseout(function(){
       $("#black").hide(800);
     });
     $("#ontario").mouseover(function(){
-      $("#security").show();
+      $("#security").slideDown(1000).show();
     }).mouseout(function(){
-      $("#security").hide();
+      $("#security").hide(800);
     });
     $("#yellow").mouseover(function(){
-      $("#orange").show();
+      $("#orange").slideDown(1000).show();
     }).mouseout(function(){
-      $("#orange").hide();
+      $("#orange").hide(800);
     });
     $("#brave").mouseover(function(){
-      $("#movies").show();
+      $("#movies").slideDown(1000).show();
     }).mouseout(function(){
-      $("#movies").hide();
+      $("#movies").hide(800);
     });
     $("#gudday").mouseover(function(){
-      $("#gday").show();
+      $("#gday").slideDown(1000).show();
     }).mouseout(function(){
-      $("#gday").hide();
+      $("#gday").hide(800);
     });
     $("#buttons").mouseover(function(){
-      $("#inputs").show();
+      $("#inputs").slideDown(1000).show();
     }).mouseout(function(){
-      $("#inputs").hide();
+      $("#inputs").hide(800);
     });
     $("#burned").mouseover(function(){
-      $("#fire").show();
+      $("#fire").slideDown(1000).show();
     }).mouseout(function(){
-      $("#fire").hide();
+      $("#fire").hide(800);
     });
     $("#giraffe").hover(function(){
-      $("#restaurant").show();
+      $("#restaurant").slideDown(1000).show();
     }).mouseout(function(){
-      $("#restaurant").hide();
+      $("#restaurant").hide(800);
     });
   });
 
