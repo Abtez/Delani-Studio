@@ -28,10 +28,10 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("#grey").mouseover(function(){
-      $("#black").show();
+    $("#grey").mouseenter(function(){
+      $("#black").slideDown(1200);
     }).mouseout(function(){
-      $("#black").hide();
+      $("#black").hide(800);
     });
     $("#ontario").mouseover(function(){
       $("#security").show();
@@ -71,16 +71,20 @@ $(document).ready(function(){
   });
 
   $(document).ready(function(){
-    var name=$("#name").val();
-    document.getElementById("name").innerHTML;
-    var emailInput=$("input#email").val();
-    document.getElementById("email").innerHTML;
-    $("#submit").click(function(){
+   $("form.formValidation").submit(function(){
+    var name= $("input#name").val();
+    var email= $("input#email").val();
+    var massage= $("textarea#message").val();
+    if (name && email){
+      alert("Thank you. Your message has been received");
+    }else{
+      alert("Please fill the form");
+    }
     
-        alert("Thank you. Your message has been received")
-    })
+   });
+  
+    });
 
-  })
 
 
 
