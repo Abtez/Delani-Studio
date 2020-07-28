@@ -3,7 +3,7 @@ body{
 }
 
 #first-container{
-    background-image: url("/image/stepbg.jpg");
+    background-image: url("../image/stepbg.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -48,7 +48,7 @@ body{
 }
 
 #serve{
-    background-image: url("/image/keyboardbg.jpg");
+    background-image: url("../image/keyboardbg.jpg");
     background-size: 115%;
     background-repeat: no-repeat;
     height: 30vw;
@@ -118,7 +118,7 @@ body{
 
 #fourth-container{
     color: white;
-    background-image: url("/image/mechanicbg.jpg");
+    background-image: url("../image/mechanicbg.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 50vw;
