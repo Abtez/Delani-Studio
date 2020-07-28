@@ -129,6 +129,18 @@ body{
     font-size: 1.3vw;
 }
 
+.logoDez img{
+     width: 6vw;
+}
+
+.logoDev img{
+    width: 6vw;
+}
+
+.logoPro img{
+    width: 6vw;
+}
+
 #portfolio{
     font-size: 2vw;
 }
@@ -270,6 +282,8 @@ button{
     font-size: 16px;
     padding: 16px 32px;
   }
+
+
 
 
 
