@@ -28,7 +28,7 @@ This project is a task to implemet everything I've learnt so far with jQuery and
 
 * Right click on folder and navigate to "open with another application" and select your code editor and run the codes on your machine.
 
-* Or you can access the web application directly using this live [link.]()
+* Or you can access the web application directly using this live [link.](https://abzed.github.io/Delani-Studio/)
 
 *****
 
